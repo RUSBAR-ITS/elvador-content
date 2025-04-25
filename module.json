@@ -24,6 +24,17 @@
       "label": "Инструменты",
       "path": "packs/tools",
       "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "scenes",
+      "label": "Сцены",
+      "path": "packs/scenes",
+      "type": "Scene",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -45,10 +56,13 @@
           "packs": [],
           "folders": [
             {
-            "name": "Владения",
-            "sorting": "a",
-            "color": "#aabbcc",
-            "packs": ["tools"]
+              "name": "Владения",
+              "sorting": "a",
+              "color": "#aabbcc",
+              "packs": [
+                "tools"
+              ],
+              "folders": []
             }
           ]
         }
