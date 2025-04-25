@@ -50,6 +50,15 @@
       "packs": [],
       "folders": [
         {
+          "name": "Приключения",
+          "sorting": "a",
+          "color": "#aabbcc",
+          "packs": [
+            "scenes"
+          ],
+          "folders": []
+        },
+        {
           "name": "Свойства персонажа",
           "sorting": "a",
           "color": "#aabbcc",
