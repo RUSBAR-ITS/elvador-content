@@ -1,8 +1,8 @@
 {
   "id": "elvador-content",
-  "esmodules": [ 
+  "esmodules": [
     "scripts/el-lang-add.js",
-    "scripts/el-lang-rm.js" 
+    "scripts/el-lang-rm.js"
   ],
   "title": "El'Vador Content",
   "version": "0.0.1",
@@ -16,6 +16,19 @@
       "name": "RUSBAR",
       "discord": "rusbar",
       "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "tools",
+      "label": "Tools",
+      "path": "packs/tools",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
     }
   ]
 }
