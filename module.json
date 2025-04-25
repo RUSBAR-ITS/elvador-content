@@ -1,0 +1,21 @@
+{
+  "id": "elvador-content",
+  "esmodules": [ 
+    "scripts/el-lang-add.js",
+    "scripts/el-lang-rm.js" 
+  ],
+  "title": "El'Vador Content",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "description": "This is content for El'Vador DnD 5e world. \nOnly in russian at this time.",
+  "authors": [
+    {
+      "name": "RUSBAR",
+      "discord": "rusbar",
+      "flags": {}
+    }
+  ]
+}
