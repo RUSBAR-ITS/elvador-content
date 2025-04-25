@@ -2,7 +2,8 @@
   "id": "elvador-content",
   "esmodules": [
     "scripts/el-lang-add.js",
-    "scripts/el-lang-rm.js"
+    "scripts/el-lang-rm.js",
+    "scripts/el-vehicletypes-add.js"
   ],
   "title": "El'Vador Content",
   "version": "0.0.1",
@@ -79,13 +80,24 @@
     {
       "name": "Эль'Вадор",
       "sorting": "m",
-      "color": "#aabbcc",
+      "color": "#8A0303",
       "packs": [],
       "folders": [
         {
+          "name": "NPC",
+          "sorting": "a",
+          "color": "#8A0303",
+          "packs": [
+            "characters",
+            "monsters",
+            "walkon"
+          ],
+          "folders": []
+        },
+        {
           "name": "Приключения",
           "sorting": "a",
-          "color": "#aabbcc",
+          "color": "#8A0303",
           "packs": [
             "scenes"
           ],
@@ -94,13 +106,13 @@
         {
           "name": "Свойства персонажа",
           "sorting": "a",
-          "color": "#aabbcc",
+          "color": "#8A0303",
           "packs": [],
           "folders": [
             {
               "name": "Владения",
               "sorting": "a",
-              "color": "#aabbcc",
+              "color": "#8A0303",
               "packs": [
                 "tools"
               ],
