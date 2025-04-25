@@ -21,7 +21,7 @@
   "packs": [
     {
       "name": "tools",
-      "label": "Tools",
+      "label": "Инструменты",
       "path": "packs/tools",
       "type": "Item",
       "ownership": {
@@ -29,6 +29,31 @@
         "ASSISTANT": "OWNER"
       },
       "system": "dnd5e"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Эль'Вадор",
+      "sorting": "m",
+      "color": "#aabbcc",
+      "packs": [],
+      "folders": [
+        {
+          "name": "Свойства персонажа",
+          "sorting": "a",
+          "color": "#aabbcc",
+          "packs": [],
+          "folders": [
+            {
+            "name": "Владения",
+            "sorting": "a",
+            "color": "#aabbcc",
+            "packs": ["elvador-content.tools"],
+            "folders": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }
