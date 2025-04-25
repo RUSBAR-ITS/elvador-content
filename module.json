@@ -48,8 +48,7 @@
             "name": "Владения",
             "sorting": "a",
             "color": "#aabbcc",
-            "packs": ["elvador-content.tools"],
-            "folders": []
+            "packs": ["elvador-content.tools"]
             }
           ]
         }
