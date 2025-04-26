@@ -69,6 +69,28 @@
       "label": "Статисты",
       "path": "packs/walkon",
       "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "abilities",
+      "label": "Способности",
+      "path": "packs/abilities",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "races",
+      "label": "Расы",
+      "path": "packs/races",
+      "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -80,13 +102,13 @@
     {
       "name": "Эль'Вадор",
       "sorting": "m",
-      "color": "#8A0303",
+      "color": "#8a0303",
       "packs": [],
       "folders": [
         {
           "name": "NPC",
           "sorting": "a",
-          "color": "#8A0303",
+          "color": "#8a0303",
           "packs": [
             "characters",
             "monsters",
@@ -97,7 +119,7 @@
         {
           "name": "Приключения",
           "sorting": "a",
-          "color": "#8A0303",
+          "color": "#8a0303",
           "packs": [
             "scenes"
           ],
@@ -106,13 +128,16 @@
         {
           "name": "Свойства персонажа",
           "sorting": "a",
-          "color": "#8A0303",
-          "packs": [],
+          "color": "#8a0303",
+          "packs": [
+            "races",
+            "abilities"
+          ],
           "folders": [
             {
               "name": "Владения",
               "sorting": "a",
-              "color": "#8A0303",
+              "color": "#8a0303",
               "packs": [
                 "tools"
               ],
