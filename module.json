@@ -91,6 +91,17 @@
       "label": "Расы",
       "path": "packs/races",
       "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "spells",
+      "label": "Заклинания",
+      "path": "packs/spells",
+      "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -130,6 +141,7 @@
           "sorting": "a",
           "color": "#8a0303",
           "packs": [
+            "spells",
             "races",
             "abilities"
           ],

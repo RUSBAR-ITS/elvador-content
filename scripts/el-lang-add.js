@@ -23,6 +23,7 @@ Hooks.once("init", () => {
   CONFIG.DND5E.languages.standard.children.el_hobbit = "Хоббитский";
   CONFIG.DND5E.languages.standard.children.el_elvish = "Эльфийский";
   CONFIG.DND5E.languages.exotic.children.el_asgard = "Азгардский";
+  CONFIG.DND5E.languages.exotic.children.el_island = "Архипелага";
   CONFIG.DND5E.languages.exotic.children.el_abyss = "Бездны";
   CONFIG.DND5E.languages.exotic.children.el_goblin = "Гоблинский";
   CONFIG.DND5E.languages.exotic.children.el_deep = "Глубинная речь";
