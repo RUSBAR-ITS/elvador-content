@@ -1,8 +1,15 @@
-2025/04/27-10:36:05.909648 7879dbfff6c0 Recovering log #41
-2025/04/27-10:36:05.913204 7879dbfff6c0 Delete type=3 #39
-2025/04/27-10:36:05.913261 7879dbfff6c0 Delete type=0 #41
-2025/04/28-22:39:12.541568 7879da3ff6c0 Level-0 table #46: started
-2025/04/28-22:39:12.541625 7879da3ff6c0 Level-0 table #46: 0 bytes OK
-2025/04/28-22:39:12.543051 7879da3ff6c0 Delete type=0 #44
-2025/04/28-22:39:12.545492 7879da3ff6c0 Manual compaction at level-0 from '!actors!se218H7xy9ePqOAq' @ 72057594037927935 : 1 .. '!folders!8gZzCBH2MPrE1t5u' @ 0 : 0; will stop at (end)
-2025/04/28-22:39:12.545647 7879da3ff6c0 Manual compaction at level-1 from '!actors!se218H7xy9ePqOAq' @ 72057594037927935 : 1 .. '!folders!8gZzCBH2MPrE1t5u' @ 0 : 0; will stop at (end)
+2025/11/25-16:35:19.645697 7a2d7a7bf6c0 Recovering log #49
+2025/11/25-16:35:19.651207 7a2d7a7bf6c0 Delete type=0 #49
+2025/11/25-16:35:19.651242 7a2d7a7bf6c0 Delete type=3 #47
+2025/11/25-16:40:32.116414 7a2ae3bff6c0 Level-0 table #54: started
+2025/11/25-16:40:32.118184 7a2ae3bff6c0 Level-0 table #54: 2900 bytes OK
+2025/11/25-16:40:32.119939 7a2ae3bff6c0 Delete type=0 #52
+2025/11/25-16:40:32.123847 7a2ae3bff6c0 Manual compaction at level-0 from '!actors!se218H7xy9ePqOAq' @ 72057594037927935 : 1 .. '!folders!8gZzCBH2MPrE1t5u' @ 0 : 0; will stop at (end)
+2025/11/25-16:40:32.132317 7a2ae3bff6c0 Manual compaction at level-1 from '!actors!se218H7xy9ePqOAq' @ 72057594037927935 : 1 .. '!folders!8gZzCBH2MPrE1t5u' @ 0 : 0; will stop at '!actors!se218H7xy9ePqOAq' @ 4 : 1
+2025/11/25-16:40:32.132332 7a2ae3bff6c0 Compacting 1@1 + 1@2 files
+2025/11/25-16:40:32.134246 7a2ae3bff6c0 Generated table #55@1: 2 keys, 3267 bytes
+2025/11/25-16:40:32.134286 7a2ae3bff6c0 Compacted 1@1 + 1@2 files => 3267 bytes
+2025/11/25-16:40:32.136163 7a2ae3bff6c0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/11/25-16:40:32.136344 7a2ae3bff6c0 Delete type=2 #54
+2025/11/25-16:40:32.136541 7a2ae3bff6c0 Delete type=2 #38
+2025/11/25-16:40:32.141445 7a2ae3bff6c0 Manual compaction at level-1 from '!actors!se218H7xy9ePqOAq' @ 4 : 1 .. '!folders!8gZzCBH2MPrE1t5u' @ 0 : 0; will stop at (end)

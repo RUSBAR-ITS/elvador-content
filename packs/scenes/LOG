@@ -1,8 +1,15 @@
-2025/04/27-10:36:05.897620 7879dbfff6c0 Recovering log #46
-2025/04/27-10:36:05.902128 7879dbfff6c0 Delete type=0 #46
-2025/04/27-10:36:05.902177 7879dbfff6c0 Delete type=3 #44
-2025/04/28-22:39:12.543186 7879da3ff6c0 Level-0 table #51: started
-2025/04/28-22:39:12.543244 7879da3ff6c0 Level-0 table #51: 0 bytes OK
-2025/04/28-22:39:12.545209 7879da3ff6c0 Delete type=0 #49
-2025/04/28-22:39:12.545533 7879da3ff6c0 Manual compaction at level-0 from '!folders!4J3UHGmKZYUrp8Gz' @ 72057594037927935 : 1 .. '!scenes!4zlwdW91AxjhTqZ0' @ 0 : 0; will stop at (end)
-2025/04/28-22:39:12.545686 7879da3ff6c0 Manual compaction at level-1 from '!folders!4J3UHGmKZYUrp8Gz' @ 72057594037927935 : 1 .. '!scenes!4zlwdW91AxjhTqZ0' @ 0 : 0; will stop at (end)
+2025/11/25-16:35:19.627722 7a2d7a7bf6c0 Recovering log #54
+2025/11/25-16:35:19.634009 7a2d7a7bf6c0 Delete type=3 #52
+2025/11/25-16:35:19.634063 7a2d7a7bf6c0 Delete type=0 #54
+2025/11/25-16:40:32.110635 7a2ae3bff6c0 Level-0 table #59: started
+2025/11/25-16:40:32.111927 7a2ae3bff6c0 Level-0 table #59: 1435 bytes OK
+2025/11/25-16:40:32.113254 7a2ae3bff6c0 Delete type=0 #57
+2025/11/25-16:40:32.120054 7a2ae3bff6c0 Manual compaction at level-0 from '!folders!4J3UHGmKZYUrp8Gz' @ 72057594037927935 : 1 .. '!scenes!4zlwdW91AxjhTqZ0' @ 0 : 0; will stop at (end)
+2025/11/25-16:40:32.123883 7a2ae3bff6c0 Manual compaction at level-1 from '!folders!4J3UHGmKZYUrp8Gz' @ 72057594037927935 : 1 .. '!scenes!4zlwdW91AxjhTqZ0' @ 0 : 0; will stop at '!scenes!4zlwdW91AxjhTqZ0' @ 19 : 1
+2025/11/25-16:40:32.123897 7a2ae3bff6c0 Compacting 1@1 + 1@2 files
+2025/11/25-16:40:32.125778 7a2ae3bff6c0 Generated table #60@1: 2 keys, 1559 bytes
+2025/11/25-16:40:32.125805 7a2ae3bff6c0 Compacted 1@1 + 1@2 files => 1559 bytes
+2025/11/25-16:40:32.127847 7a2ae3bff6c0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/11/25-16:40:32.127972 7a2ae3bff6c0 Delete type=2 #23
+2025/11/25-16:40:32.128104 7a2ae3bff6c0 Delete type=2 #59
+2025/11/25-16:40:32.136684 7a2ae3bff6c0 Manual compaction at level-1 from '!scenes!4zlwdW91AxjhTqZ0' @ 19 : 1 .. '!scenes!4zlwdW91AxjhTqZ0' @ 0 : 0; will stop at (end)
